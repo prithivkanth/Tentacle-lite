@@ -7,8 +7,8 @@ controller_manager:
       type: joint_trajectory_controller/JointTrajectoryController
 
     gripper_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-      #type: forward_command_controller/ForwardCommandController
+      #type: joint_trajectory_controller/JointTrajectoryController
+      type: forward_command_controller/ForwardCommandController
       
 
     joint_state_broadcaster:
