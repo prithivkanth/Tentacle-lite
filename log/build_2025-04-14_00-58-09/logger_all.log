@@ -1,0 +1,544 @@
+[0.324s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--executor', 'sequential']
+[0.324s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x721fe6d064d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x721fe6d05720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x721fe6d05720>>, mixin_verb=('build',))
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.534s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/prithiv/tentacle2'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'cmake'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'python'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['python_setup_py']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz' with type 'ros.ament_cmake' and name 'ros_gz'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_bridge) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz_bridge' with type 'ros.ament_cmake' and name 'ros_gz_bridge'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_image) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz_image' with type 'ros.ament_cmake' and name 'ros_gz_image'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extension 'colcon_pkg'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_interfaces) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz_interfaces' with type 'ros.ament_cmake' and name 'ros_gz_interfaces'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_point_cloud) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_point_cloud) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_point_cloud) ignored
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz_sim' with type 'ros.ament_cmake' and name 'ros_gz_sim'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_gz_sim_demos) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_gz_sim_demos' with type 'ros.ament_cmake' and name 'ros_gz_sim_demos'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign' with type 'ros.ament_cmake' and name 'ros_ign'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_bridge) by extension 'ros'
+[0.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign_bridge' with type 'ros.ament_cmake' and name 'ros_ign_bridge'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign_gazebo' with type 'ros.ament_cmake' and name 'ros_ign_gazebo'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_gazebo_demos) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign_gazebo_demos' with type 'ros.ament_cmake' and name 'ros_ign_gazebo_demos'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_image) by extension 'ros'
+[0.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign_image' with type 'ros.ament_cmake' and name 'ros_ign_image'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/ros_ign_interfaces) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/ros_ign_interfaces' with type 'ros.ament_cmake' and name 'ros_ign_interfaces'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/test_ros_gz_bridge) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign/test_ros_gz_bridge' with type 'ros.ament_cmake' and name 'test_ros_gz_bridge'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'python'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extensions ['python_setup_py']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign/tools) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_controller) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tentacle_controller' with type 'ros.ament_cmake' and name 'tentacle_controller'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/tentacle_description) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tentacle_description' with type 'ros.ament_python' and name 'tentacle_description'
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.622s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 468 installed packages in /opt/ros/humble
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.655s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ros_gz_bridge' is in: /opt/ros/humble
+	'ros_ign_gazebo' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ros_gz_bridge ros_ign_gazebo
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz_interfaces', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz_sim', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz_sim', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'tentacle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'tentacle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/tentacle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/tentacle_description', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/tentacle_description', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz_bridge', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign_gazebo', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign_interfaces', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'tentacle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'tentacle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/tentacle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/tentacle_controller', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/tentacle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz_image', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz_image', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign_bridge', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'test_ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'test_ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/test_ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/test_ros_gz_bridge', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/test_ros_gz_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.658s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz_sim_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz_sim_demos', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz_sim_demos', 'symlink_install': False, 'test_result_base': None}
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_args' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_target' from command line to 'None'
+[0.658s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign_image', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign_image', 'symlink_install': False, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_gz', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_gz', 'symlink_install': False, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_gazebo_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign_gazebo_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign_gazebo_demos', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign_gazebo_demos', 'symlink_install': False, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/prithiv/tentacle2/build/ros_ign', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/prithiv/tentacle2/install/ros_ign', 'merge_install': False, 'path': '/home/prithiv/tentacle2/src/ros_ign/ros_ign', 'symlink_install': False, 'test_result_base': None}
+[0.659s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.660s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros_gz_interfaces'
+[0.660s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_interfaces' with build type 'ament_cmake'
+[0.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_interfaces'
+[0.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_gz_interfaces -- -j12 -l12
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prithiv/tentacle2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_gz_interfaces -- -j12 -l12
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_gz_interfaces
+[1.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prithiv/tentacle2/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_gz_interfaces
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces' for CMake module files
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces' for CMake config files
+[1.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[1.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib'
+[1.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/bin'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib/python3.10/site-packages'
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/bin'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[1.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prithiv/tentacle2/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[1.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces' for CMake module files
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib'
+[1.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/bin'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/lib/python3.10/site-packages'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_interfaces/bin'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prithiv/tentacle2/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[1.305s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros_gz_interfaces' finished with '0'
+[1.305s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros_gz_sim'
+[1.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_sim' with build type 'ament_cmake'
+[1.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_sim'
+[1.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_gz_sim -- -j12 -l12
+[1.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prithiv/tentacle2/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_gz_sim -- -j12 -l12
+[1.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/build/ros_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_gz_sim
+[1.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim)
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim' for CMake module files
+[1.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prithiv/tentacle2/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_gz_sim
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib'
+[1.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'ld_library_path_lib')
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.ps1'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/bin'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib/pkgconfig/ros_gz_sim.pc'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib/python3.10/site-packages'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/bin'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.dsv'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.sh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.bash'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.zsh'
+[1.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prithiv/tentacle2/install/ros_gz_sim/share/colcon-core/packages/ros_gz_sim)
+[1.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_sim)
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim' for CMake module files
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim' for CMake config files
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.ps1'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/cmake_prefix_path.sh'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib'
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_sim', 'ld_library_path_lib')
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/hook/ld_library_path_lib.sh'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/bin'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib/pkgconfig/ros_gz_sim.pc'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/lib/python3.10/site-packages'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/ros_gz_sim/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/ros_gz_sim/share/ros_gz_sim/package.zsh'
+[1.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prithiv/tentacle2/install/ros_gz_sim/share/colcon-core/packages/ros_gz_sim)
+[1.554s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros_gz_sim' finished with '0'
+[1.554s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'tentacle_description'
+[1.555s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/prithiv/tentacle2/src/tentacle_description' with build type 'ament_python'
+[1.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('tentacle_description', 'ament_prefix_path')
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/ament_prefix_path.ps1'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/ament_prefix_path.dsv'
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/ament_prefix_path.sh'
+[1.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.710s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/prithiv/tentacle2/src/tentacle_description'
+[1.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/src/tentacle_description': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description' for CMake module files
+[2.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/prithiv/tentacle2/src/tentacle_description' returned '0': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description' for CMake config files
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description/lib'
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description/bin'
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description/lib/pkgconfig/tentacle_description.pc'
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages'
+[2.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('tentacle_description', 'pythonpath')
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/pythonpath.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/pythonpath.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/hook/pythonpath.sh'
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/prithiv/tentacle2/install/tentacle_description/bin'
+[2.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tentacle_description)
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.ps1'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.dsv'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.sh'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.bash'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.zsh'
+[2.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/prithiv/tentacle2/install/tentacle_description/share/colcon-core/packages/tentacle_description)
+[2.261s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'tentacle_description' finished with '0'
+[2.261s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'ros_gz_bridge'
+[2.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_bridge' with build type 'ament_cmake'
+[2.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/prithiv/tentacle2/src/ros_ign/ros_gz_bridge'
+[2.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/prithiv/tentacle2/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prithiv/tentacle2/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_gz_bridge -- -j12 -l12

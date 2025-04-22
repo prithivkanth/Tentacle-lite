@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<robot name="tentacle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:arg name="is_ignition" default="true"/>
+
+  <xacro:include filename="$(find tentacle_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find tentacle_description)/urdf/tentacle.gazebo" />
+  <xacro:include filename="$(find tentacle_description)/urdf/tentacle_gazebo.xacro"/>
+  <xacro:include filename="$(find tentacle_description)/urdf/tentacle_ros2_control.xacro" />
+
+
+  <link name="base_link">
+  <inertial>
+    <origin xyz="0.003724544668107693 -4.130614845030881e-05 0.01152842135935003" rpy="0 0 0"/>
+    <mass value="0.19623937823714263"/>
+    <inertia ixx="0.000109" iyy="0.000113" izz="0.000164" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="center_1">
+  <inertial>
+    <origin xyz="0.0005464556457603978 -0.009747922577617613 0.024151658053259528" rpy="0 0 0"/>
+    <mass value="0.2351503258769467"/>
+    <inertia ixx="0.000143" iyy="0.000149" izz="7.6e-05" ixy="1e-06" iyz="2.4e-05" ixz="1.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.003249 -0.000454 -0.035" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/center_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.003249 -0.000454 -0.035" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/center_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="forearm_1">
+  <inertial>
+    <origin xyz="-0.031218380690437288 0.007383848756651429 -0.0009929701931967044" rpy="0 0 0"/>
+    <mass value="0.19326138616796915"/>
+    <inertia ixx="1.2e-05" iyy="0.000131" izz="0.000126" ixy="0.0" iyz="-0.0" ixz="5e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.005216 0.001003 -0.087273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/forearm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.005216 0.001003 -0.087273" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/forearm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="arm_1">
+  <inertial>
+    <origin xyz="0.023921782876469046 -0.005943519652805075 0.012450684397181486" rpy="0 0 0"/>
+    <mass value="0.15653561331279695"/>
+    <inertia ixx="1.9e-05" iyy="5.8e-05" izz="4.6e-05" ixy="-0.0" iyz="-0.0" ixz="-1.9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.067469 0.001003 -0.089531" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/arm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.067469 0.001003 -0.089531" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/arm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_base_1">
+  <inertial>
+    <origin xyz="-0.004088860440821452 -0.001891194304291763 0.01892345415646901" rpy="0 0 0"/>
+    <mass value="0.07836131685763353"/>
+    <inertia ixx="1.9e-05" iyy="1.6e-05" izz="6e-06" ixy="-1e-06" iyz="4e-06" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.02352 -0.002316 -0.112573" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.02352 -0.002316 -0.112573" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_right_1">
+  <inertial>
+    <origin xyz="-0.003652078443298134 0.0011147589075419769 0.027391530562665273" rpy="0 0 0"/>
+    <mass value="0.020971904838002223"/>
+    <inertia ixx="6e-06" iyy="6e-06" izz="1e-06" ixy="-0.0" iyz="1e-06" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.024112 -0.003999 -0.142132" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.024112 -0.003999 -0.142132" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_left_1">
+  <inertial>
+    <origin xyz="-0.0035798722732241946 -0.001068364813392536 0.02708226988197407" rpy="0 0 0"/>
+    <mass value="0.021916041795561506"/>
+    <inertia ixx="7e-06" iyy="7e-06" izz="1e-06" ixy="0.0" iyz="-1e-06" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.024119 0.008013 -0.142217" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.024119 0.008013 -0.142217" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find tentacle_description)/meshes/gripper_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute_1" type="continuous">
+  <origin xyz="0.003249 0.000454 0.035" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="center_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+</joint>
+
+<joint name="Revolute_2" type="revolute">
+  <origin xyz="-0.008465 -0.001457 0.052273" rpy="0 0 0"/>
+  <parent link="center_1"/>
+  <child link="forearm_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.0" lower="-2.541593" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute_3" type="revolute">
+  <origin xyz="-0.062253 0.0 0.002258" rpy="0 0 0"/>
+  <parent link="forearm_1"/>
+  <child link="arm_1"/>
+  <axis xyz="-0.0 1.0 -0.0"/>
+  <limit upper="0.0" lower="-3.141593" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid" type="fixed">
+  <origin xyz="0.043949 0.003319 0.023042" rpy="0 0 0"/>
+  <parent link="arm_1"/>
+  <child link="gripper_base_1"/>
+</joint>
+
+<joint name="Revolute_4" type="revolute">
+  <origin xyz="-0.000592 0.001683 0.029559" rpy="0 0 0"/>
+  <parent link="gripper_base_1"/>
+  <child link="gripper_right_1"/>
+  <axis xyz="-0.996195 -0.0 -0.087156"/>
+  <limit upper="0.785398" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Revolute_5" type="revolute">
+  <origin xyz="-0.000599 -0.010329 0.029644" rpy="0 0 0"/>
+  <parent link="gripper_base_1"/>
+  <child link="gripper_left_1"/>
+  <axis xyz="-0.996195 -0.0 -0.087156"/>
+  <mimic joint="Revolute_4" multiplier="-1"/>
+  <limit upper="0.0" lower="-0.785398" effort="100" velocity="100"/>
+</joint>
+
+</robot>

@@ -1,0 +1,246 @@
+[0.005s] Invoking command in '/home/prithiv/tentacle2/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/prithiv/tentacle2/src/ros_ign/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/ros_ign_gazebo
+[0.036s] -- The C compiler identification is GNU 11.4.0
+[0.069s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.118s] -- Detecting C compiler ABI info - done
+[0.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.174s] -- Detecting CXX compiler ABI info - done
+[0.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.179s] -- Detecting CXX compile features
+[0.180s] -- Detecting CXX compile features - done
+[0.181s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.339s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.342s] -- Looking for ignition-gazebo6 -- found version 6.16.0
+[0.347s] -- Searching for dependencies of ignition-gazebo6
+[0.348s] -- Looking for sdformat12 -- found version 12.7.2
+[0.349s] -- Searching for dependencies of sdformat12
+[0.352s] -- Checking for module 'tinyxml2'
+[0.358s] --   Found tinyxml2, version 9.0.0
+[0.376s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.376s] -- Searching for dependencies of ignition-math6
+[0.378s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.379s] -- Searching for dependencies of ignition-utils1
+[0.381s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.381s] -- Searching for dependencies of ignition-plugin1
+[0.381s] -- Searching for <ignition-plugin1> component [loader]
+[0.383s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[0.383s] -- Searching for dependencies of ignition-plugin1-loader
+[0.383s] -- Searching for <ignition-plugin1> component [register]
+[0.385s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[0.385s] -- Searching for dependencies of ignition-plugin1-register
+[0.387s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.388s] -- Searching for dependencies of ignition-transport11
+[0.489s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.496s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.499s] -- Checking for module 'libzmq >= 4'
+[0.506s] --   Found libzmq , version 4.3.4
+[0.524s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.527s] -- Checking for module 'uuid'
+[0.534s] --   Found uuid, version 2.37.2
+[0.550s] -- Found UUID: TRUE  
+[0.550s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.551s] -- Searching for dependencies of ignition-utils1
+[0.551s] -- Searching for <ignition-utils1> component [cli]
+[0.553s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[0.553s] -- Searching for dependencies of ignition-utils1-cli
+[0.555s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.555s] -- Searching for dependencies of ignition-msgs8
+[0.566s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.567s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.574s] -- Searching for <ignition-transport11> component [log]
+[0.576s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[0.576s] -- Searching for dependencies of ignition-transport11-log
+[0.577s] -- Searching for <ignition-transport11> component [parameters]
+[0.578s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[0.579s] -- Searching for dependencies of ignition-transport11-parameters
+[0.579s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.581s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.582s] -- Searching for dependencies of ignition-common4
+[0.582s] -- Looking for dlfcn.h - found
+[0.582s] -- Looking for libdl - found
+[0.583s] -- Found DL: TRUE  
+[0.590s] -- Searching for <ignition-common4> component [profiler]
+[0.592s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[0.592s] -- Searching for dependencies of ignition-common4-profiler
+[0.592s] -- Searching for <ignition-common4> component [events]
+[0.594s] -- Looking for ignition-common4-events -- found version 4.7.0
+[0.594s] -- Searching for dependencies of ignition-common4-events
+[0.594s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.595s] -- Searching for <ignition-common4> component [av]
+[0.596s] -- Looking for ignition-common4-av -- found version 4.7.0
+[0.597s] -- Searching for dependencies of ignition-common4-av
+[0.600s] -- Checking for module 'libswscale'
+[0.607s] --   Found libswscale, version 5.9.100
+[0.624s] -- Found SWSCALE: TRUE  
+[0.627s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.634s] --   Found libavdevice , version 58.13.100
+[0.653s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.656s] -- Checking for module 'libavformat'
+[0.662s] --   Found libavformat, version 58.76.100
+[0.680s] -- Found AVFORMAT: TRUE  
+[0.683s] -- Checking for module 'libavcodec'
+[0.689s] --   Found libavcodec, version 58.134.100
+[0.707s] -- Found AVCODEC: TRUE  
+[0.710s] -- Checking for module 'libavutil'
+[0.716s] --   Found libavutil, version 56.70.100
+[0.733s] -- Found AVUTIL: TRUE  
+[0.736s] -- Looking for ignition-fuel_tools7 -- found version 7.3.0
+[0.736s] -- Searching for dependencies of ignition-fuel_tools7
+[0.776s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.782s] -- Checking for module 'jsoncpp'
+[0.789s] --   Found jsoncpp, version 1.9.5
+[0.805s] -- Found JSONCPP: TRUE  
+[0.809s] -- Checking for module 'libzip'
+[0.816s] --   Found libzip, version 1.7.3
+[0.835s] -- Found ZIP: TRUE  
+[0.835s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.835s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.836s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.839s] -- Looking for ignition-gui6 -- found version 6.8.0
+[0.839s] -- Searching for dependencies of ignition-gui6
+[0.862s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.862s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.862s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.862s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.864s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[0.864s] -- Searching for dependencies of ignition-rendering6
+[0.865s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.865s] -- Searching for dependencies of ignition-math6
+[0.865s] -- Searching for <ignition-math6> component [eigen3]
+[0.866s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[0.867s] -- Searching for dependencies of ignition-math6-eigen3
+[0.872s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.872s] -- Searching for dependencies of ignition-common4
+[0.872s] -- Looking for dlfcn.h - found
+[0.872s] -- Looking for libdl - found
+[0.878s] -- Searching for <ignition-common4> component [graphics]
+[0.880s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[0.880s] -- Searching for dependencies of ignition-common4-graphics
+[0.880s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.881s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.881s] -- Searching for <ignition-common4> component [events]
+[0.882s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.882s] -- Searching for dependencies of ignition-plugin1
+[0.882s] -- Searching for <ignition-plugin1> component [all]
+[0.884s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[0.884s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.886s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.899s] -- Looking for ignition-physics5 -- found version 5.3.2
+[0.899s] -- Searching for dependencies of ignition-physics5
+[0.900s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.900s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[0.900s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.901s] -- Searching for <ignition-physics5> component [heightmap]
+[0.903s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[0.903s] -- Searching for dependencies of ignition-physics5-heightmap
+[0.904s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.904s] -- Searching for <ignition-physics5> component [mesh]
+[0.905s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[0.906s] -- Searching for dependencies of ignition-physics5-mesh
+[0.906s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.907s] -- Searching for <ignition-physics5> component [sdf]
+[0.908s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[0.909s] -- Searching for dependencies of ignition-physics5-sdf
+[0.909s] -- Looking for sdformat12 -- found version 12.7.2
+[0.911s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.911s] -- Searching for dependencies of ignition-sensors6
+[0.923s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.923s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.924s] -- Looking for ignition-common4 -- found version 4.7.0
+[0.924s] -- Looking for ignition-transport11 -- found version 11.4.1
+[0.924s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[0.925s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.925s] -- Looking for sdformat12 -- found version 12.7.2
+[0.925s] -- Searching for <ignition-sensors6> component [air_pressure]
+[0.927s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.0
+[0.928s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[0.928s] -- Searching for <ignition-sensors6> component [altimeter]
+[0.930s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.0
+[0.930s] -- Searching for dependencies of ignition-sensors6-altimeter
+[0.931s] -- Searching for <ignition-sensors6> component [imu]
+[0.932s] -- Looking for ignition-sensors6-imu -- found version 6.8.0
+[0.933s] -- Searching for dependencies of ignition-sensors6-imu
+[0.933s] -- Searching for <ignition-sensors6> component [force_torque]
+[0.935s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.0
+[0.935s] -- Searching for dependencies of ignition-sensors6-force_torque
+[0.935s] -- Searching for <ignition-sensors6> component [logical_camera]
+[0.937s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.0
+[0.937s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[0.938s] -- Searching for <ignition-sensors6> component [magnetometer]
+[0.939s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.0
+[0.940s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[0.940s] -- Searching for <ignition-sensors6> component [navsat]
+[0.942s] -- Looking for ignition-sensors6-navsat -- found version 6.8.0
+[0.942s] -- Searching for dependencies of ignition-sensors6-navsat
+[0.942s] -- Searching for <ignition-sensors6> component [rendering]
+[0.944s] -- Looking for ignition-sensors6-rendering -- found version 6.8.0
+[0.944s] -- Searching for dependencies of ignition-sensors6-rendering
+[0.945s] -- Searching for <ignition-sensors6> component [lidar]
+[0.946s] -- Looking for ignition-sensors6-lidar -- found version 6.8.0
+[0.947s] -- Searching for dependencies of ignition-sensors6-lidar
+[0.947s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.947s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[0.949s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.0
+[0.949s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[0.950s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.950s] -- Searching for <ignition-sensors6> component [camera]
+[0.952s] -- Looking for ignition-sensors6-camera -- found version 6.8.0
+[0.952s] -- Searching for dependencies of ignition-sensors6-camera
+[0.952s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.953s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[0.954s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.0
+[0.955s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[0.955s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[0.957s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.0
+[0.957s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[0.958s] -- Searching for <ignition-sensors6> component [depth_camera]
+[0.959s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.0
+[0.960s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[0.960s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.960s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[0.962s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.0
+[0.962s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[0.963s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.963s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[0.965s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.0
+[0.965s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[0.965s] -- Looking for ignition-sensors6 -- found version 6.8.0
+[0.966s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[0.966s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.969s] -- Looking for ignition-utils1 -- found version 1.5.1
+[0.981s] -- Compiling against Gazebo Fortress
+[1.022s] -- Configuring done
+[1.024s] -- Generating done
+[1.026s] -- Build files have been written to: /home/prithiv/tentacle2/build/ros_ign_gazebo
+[1.033s] Invoked command in '/home/prithiv/tentacle2/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/prithiv/tentacle2/src/ros_ign/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/ros_ign_gazebo
+[1.034s] Invoking command in '/home/prithiv/tentacle2/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_ign_gazebo -- -j12 -l12
+[1.062s] [ 50%] [32mBuilding CXX object CMakeFiles/create.dir/src/create_shim.cpp.o[0m
+[1.202s] [100%] [32m[1mLinking CXX executable create[0m
+[1.254s] [100%] Built target create
+[1.261s] Invoked command in '/home/prithiv/tentacle2/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/prithiv/tentacle2/build/ros_ign_gazebo -- -j12 -l12
+[1.262s] Invoking command in '/home/prithiv/tentacle2/build/ros_ign_gazebo': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_ign_gazebo
+[1.267s] -- Install configuration: ""
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/launch/ign_gazebo.launch.py
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/lib/ros_ign_gazebo/create
+[1.267s] -- Set runtime path of "/home/prithiv/tentacle2/install/ros_ign_gazebo/lib/ros_ign_gazebo/create" to ""
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_ign_gazebo
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_ign_gazebo
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.sh
+[1.267s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.dsv
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.sh
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.dsv
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.bash
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.sh
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.zsh
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.dsv
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ament_index/resource_index/packages/ros_ign_gazebo
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig.cmake
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig-version.cmake
+[1.268s] -- Installing: /home/prithiv/tentacle2/install/ros_ign_gazebo/share/ros_ign_gazebo/package.xml
+[1.270s] Invoked command in '/home/prithiv/tentacle2/build/ros_ign_gazebo' returned '0': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble LD_LIBRARY_PATH=/home/prithiv/tentacle2/install/ros_gz_sim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/prithiv/tentacle2/build/ros_ign_gazebo

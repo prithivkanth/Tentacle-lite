@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target bridge_node[0m
+[  2%] Built target gtest_main
+[  4%] Built target gtest
+[  6%] Built target bridge_node
+[35m[1mConsolidate compiler generated dependencies of target test_rcl_interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[  9%] Built target test_rcl_interfaces
+[ 13%] Built target test_utils
+[35m[1mConsolidate compiler generated dependencies of target ros_gz_bridge[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gz_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ros_client[0m
+[35m[1mConsolidate compiler generated dependencies of target test_gz_publisher[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/test_gz_subscriber.dir/generated/test/gz_subscriber.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[ 17%] Built target test_ros_client
+[ 18%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[ 20%] Built target test_gz_server
+[ 24%] Built target test_gz_publisher
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/nav_msgs_subscriber.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/gps_msgs_subscriber.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rcl_interfaces_subscriber.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rosgraph_msgs_subscriber.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/ros_gz_interfaces_subscriber.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/sensor_msgs_subscriber.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/sensor_msgs.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/std_msgs.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/std_msgs_subscriber.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/tf2_msgs_subscriber.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/trajectory_msgs_subscriber.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_gz_subscriber[0m
+[ 43%] Built target test_gz_subscriber
+[ 45%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/vision_msgs_subscriber.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/vision_msgs.cpp.o[0m

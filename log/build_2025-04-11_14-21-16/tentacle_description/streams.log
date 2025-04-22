@@ -1,0 +1,53 @@
+[0.344s] Invoking command in '/home/prithiv/tentacle2/tentacle_description': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data
+[0.480s] running egg_info
+[0.480s] creating ../build/tentacle_description/tentacle_description.egg-info
+[0.480s] writing ../build/tentacle_description/tentacle_description.egg-info/PKG-INFO
+[0.480s] writing dependency_links to ../build/tentacle_description/tentacle_description.egg-info/dependency_links.txt
+[0.480s] writing entry points to ../build/tentacle_description/tentacle_description.egg-info/entry_points.txt
+[0.480s] writing requirements to ../build/tentacle_description/tentacle_description.egg-info/requires.txt
+[0.480s] writing top-level names to ../build/tentacle_description/tentacle_description.egg-info/top_level.txt
+[0.480s] writing manifest file '../build/tentacle_description/tentacle_description.egg-info/SOURCES.txt'
+[0.481s] reading manifest file '../build/tentacle_description/tentacle_description.egg-info/SOURCES.txt'
+[0.482s] writing manifest file '../build/tentacle_description/tentacle_description.egg-info/SOURCES.txt'
+[0.482s] running build
+[0.482s] running build_py
+[0.482s] creating /home/prithiv/tentacle2/build/tentacle_description/build
+[0.482s] creating /home/prithiv/tentacle2/build/tentacle_description/build/lib
+[0.482s] creating /home/prithiv/tentacle2/build/tentacle_description/build/lib/tentacle_description
+[0.482s] copying tentacle_description/__init__.py -> /home/prithiv/tentacle2/build/tentacle_description/build/lib/tentacle_description
+[0.482s] running install
+[0.482s] running install_lib
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description
+[0.483s] copying /home/prithiv/tentacle2/build/tentacle_description/build/lib/tentacle_description/__init__.py -> /home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description
+[0.483s] byte-compiling /home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description/__init__.py to __init__.cpython-310.pyc
+[0.483s] running install_data
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/share/ament_index
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index/packages
+[0.483s] copying resource/tentacle_description -> /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index/packages
+[0.483s] copying package.xml -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch
+[0.483s] copying launch/display.launch.py -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch
+[0.483s] copying launch/gazebo.launch.py -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch
+[0.483s] creating /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.484s] copying urdf/tentacle.ros2control -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.484s] copying urdf/tentacle.xacro -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.484s] copying urdf/tentacle.gazebo -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.484s] copying urdf/materials.xacro -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.484s] creating /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/base_link.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/center_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/arm_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/gripper_left_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/gripper_right_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/forearm_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] copying meshes/gripper_base_1.stl -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.484s] creating /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/config
+[0.484s] copying config/display.rviz -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/config
+[0.484s] copying config/ros_gz_bridge_gazebo.yaml -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/config
+[0.484s] copying config/gazebo.rviz -> /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/config
+[0.484s] running install_egg_info
+[0.486s] Copying ../build/tentacle_description/tentacle_description.egg-info to /home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description-0.0.0-py3.10.egg-info
+[0.486s] running install_scripts
+[0.498s] writing list of installed files to '/home/prithiv/tentacle2/build/tentacle_description/install.log'
+[0.511s] Invoked command in '/home/prithiv/tentacle2/tentacle_description' returned '0': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data

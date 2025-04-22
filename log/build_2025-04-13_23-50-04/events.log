@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'tentacle_controller'}
+[0.000281] (-) JobUnselected: {'identifier': 'tentacle_description'}
+[0.000378] (-) EventReactorShutdown: {}

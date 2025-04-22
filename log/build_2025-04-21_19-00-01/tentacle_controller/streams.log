@@ -1,0 +1,24 @@
+[0.005s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_controller': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/tentacle_description:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/ros_ign_interfaces:/home/prithiv/tentacle2/install/ros_ign_gazebo:/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/ros_gz_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_controller -- -j12 -l12
+[0.028s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_controller' returned '0': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/tentacle_description:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/ros_ign_interfaces:/home/prithiv/tentacle2/install/ros_ign_gazebo:/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/ros_gz_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_controller -- -j12 -l12
+[0.036s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_controller': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/tentacle_description:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/ros_ign_interfaces:/home/prithiv/tentacle2/install/ros_ign_gazebo:/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/ros_gz_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_controller
+[0.043s] -- Install configuration: ""
+[0.043s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/config
+[0.043s] -- Installing: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/config/tentacle_controllers.yaml
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/launch
+[0.044s] -- Installing: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/launch/controller.launch.py
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/package_run_dependencies/tentacle_controller
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/parent_prefix_path/tentacle_controller
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/path.sh
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/path.dsv
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.bash
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.sh
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.zsh
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.dsv
+[0.044s] -- Installing: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/package.dsv
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/packages/tentacle_controller
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/cmake/tentacle_controllerConfig.cmake
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/cmake/tentacle_controllerConfig-version.cmake
+[0.044s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/package.xml
+[0.046s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_controller' returned '0': AMENT_PREFIX_PATH=/home/prithiv/tentacle2/install/tentacle_description:/home/prithiv/tentacle2/install/tentacle_controller:/home/prithiv/tentacle2/install/ros_ign_interfaces:/home/prithiv/tentacle2/install/ros_ign_gazebo:/home/prithiv/tentacle2/install/ros_gz_sim:/home/prithiv/tentacle2/install/ros_gz_interfaces:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_controller

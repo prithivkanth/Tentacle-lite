@@ -1,0 +1,17 @@
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/config/tentacle_controllers.yaml
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/launch/controller.launch.py
+/home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/package_run_dependencies/tentacle_controller
+/home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/parent_prefix_path/tentacle_controller
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/ament_prefix_path.sh
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/ament_prefix_path.dsv
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/path.sh
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/environment/path.dsv
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.bash
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.sh
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.zsh
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/local_setup.dsv
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/package.dsv
+/home/prithiv/tentacle2/install/tentacle_controller/share/ament_index/resource_index/packages/tentacle_controller
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/cmake/tentacle_controllerConfig.cmake
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/cmake/tentacle_controllerConfig-version.cmake
+/home/prithiv/tentacle2/install/tentacle_controller/share/tentacle_controller/package.xml

@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_controller -- -j12 -l12
+[0.021s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.136s] -- Added test 'lint_cmake' to check CMake code style
+[0.136s] -- Added test 'xmllint' to check XML markup files
+[0.137s] -- Configuring done
+[0.138s] -- Generating done
+[0.139s] -- Build files have been written to: /home/prithiv/tentacle2/build/tentacle_controller
+[0.159s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_controller -- -j12 -l12
+[0.164s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_controller
+[0.168s] -- Install configuration: ""
+[0.168s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.168s]   file INSTALL cannot find
+[0.168s]   "/home/prithiv/tentacle2/src/tentacle_controller/launch": No such file or
+[0.168s]   directory.
+[0.168s] 
+[0.169s] [0m
+[0.169s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_controller
