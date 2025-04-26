@@ -8,6 +8,8 @@
   <xacro:include filename="$(find tentacle_description)/urdf/tentacle_gazebo.xacro"/>
   <xacro:include filename="$(find tentacle_description)/urdf/tentacle_ros2_control.xacro" />
 
+  <link name="world"/>
+
 
   <link name="base_link">
   <inertial>
@@ -156,6 +158,12 @@
   </collision>
 </link>
 
+<joint name="virtual_joint" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint> 
+
 <joint name="Revolute_1" type="continuous">
   <origin xyz="0.003249 0.000454 0.035" rpy="0 0 0"/>
   <parent link="base_link"/>
@@ -168,7 +176,7 @@
   <parent link="center_1"/>
   <child link="forearm_1"/>
   <axis xyz="0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-2.541593" effort="100" velocity="100"/>
+  <limit upper="0.1" lower="-2.541593" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Revolute_3" type="revolute">
@@ -176,7 +184,7 @@
   <parent link="forearm_1"/>
   <child link="arm_1"/>
   <axis xyz="-0.0 1.0 -0.0"/>
-  <limit upper="0.0" lower="-3.141593" effort="100" velocity="100"/>
+  <limit upper="0.1" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 
 <joint name="Rigid" type="fixed">

@@ -28,7 +28,7 @@
         <joint name="Revolute_2">
             <command_interface name="position">
                 <param name="min">-2.541593</param>
-                <param name="max">0.0</param>
+                <param name="max">0.1</param>
             </command_interface>
             <state_interface name="position"/>
         </joint>
@@ -36,7 +36,7 @@
         <joint name="Revolute_3">
             <command_interface name="position">
                 <param name="min">-3.141593</param>
-                <param name="max">0.0</param>
+                <param name="max">0.1</param>
             </command_interface>
             <state_interface name="position"/>
         </joint>

@@ -1,0 +1,4 @@
+[0.007s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake /home/prithiv/tentacle2/src/tentacle_description -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/tentacle_description
+[0.011s] [0mCMake Error: The source directory "/home/prithiv/tentacle2/src/tentacle_description" does not appear to contain CMakeLists.txt.
+[0.011s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.012s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake /home/prithiv/tentacle2/src/tentacle_description -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/tentacle_description

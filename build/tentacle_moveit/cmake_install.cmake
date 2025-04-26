@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tentacle_moveit" TYPE DIRECTORY FILES
+    "/home/prithiv/tentacle2/src/tentacle_moveit/launch"
+    "/home/prithiv/tentacle2/src/tentacle_moveit/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/prithiv/tentacle2/build/tentacle_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tentacle_moveit")
 endif()
 

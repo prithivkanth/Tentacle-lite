@@ -1,0 +1,20 @@
+[0.352s] Invoking command in '/home/prithiv/tentacle2/src/tentacle_description': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data
+[0.486s] running egg_info
+[0.486s] writing ../../build/tentacle_description/tentacle_description.egg-info/PKG-INFO
+[0.486s] writing dependency_links to ../../build/tentacle_description/tentacle_description.egg-info/dependency_links.txt
+[0.486s] writing entry points to ../../build/tentacle_description/tentacle_description.egg-info/entry_points.txt
+[0.486s] writing requirements to ../../build/tentacle_description/tentacle_description.egg-info/requires.txt
+[0.486s] writing top-level names to ../../build/tentacle_description/tentacle_description.egg-info/top_level.txt
+[0.487s] reading manifest file '../../build/tentacle_description/tentacle_description.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../build/tentacle_description/tentacle_description.egg-info/SOURCES.txt'
+[0.488s] running build
+[0.488s] running build_py
+[0.488s] running install
+[0.488s] running install_lib
+[0.489s] running install_data
+[0.489s] running install_egg_info
+[0.490s] removing '/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.490s] Copying ../../build/tentacle_description/tentacle_description.egg-info to /home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages/tentacle_description-0.0.0-py3.10.egg-info
+[0.490s] running install_scripts
+[0.502s] writing list of installed files to '/home/prithiv/tentacle2/build/tentacle_description/install.log'
+[0.515s] Invoked command in '/home/prithiv/tentacle2/src/tentacle_description' returned '0': PYTHONPATH=/home/prithiv/tentacle2/build/tentacle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prithiv/tentacle2/install/tentacle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tentacle_description build --build-base /home/prithiv/tentacle2/build/tentacle_description/build install --record /home/prithiv/tentacle2/build/tentacle_description/install.log --single-version-externally-managed install_data

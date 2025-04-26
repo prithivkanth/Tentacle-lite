@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_description -- -j12 -l12
+[0.028s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_description -- -j12 -l12
+[0.033s] Invoking command in '/home/prithiv/tentacle2/build/tentacle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_description
+[0.037s] -- Install configuration: ""
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch/gazebo.launch.py
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/launch/display.launch.py
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/forearm_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/center_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/gripper_right_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/gripper_base_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/base_link.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/gripper_left_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/meshes/arm_1.stl
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf/tentacle.gazebo
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf/tentacle_gazebo.xacro
+[0.037s] -- Installing: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf/tentacle.xacro
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf/materials.xacro
+[0.037s] -- Installing: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/urdf/tentacle_ros2_control.xacro
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index/package_run_dependencies/tentacle_description
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index/parent_prefix_path/tentacle_description
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/environment/ament_prefix_path.sh
+[0.037s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/environment/ament_prefix_path.dsv
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/environment/path.sh
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/environment/path.dsv
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/local_setup.bash
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/local_setup.sh
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/local_setup.zsh
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/local_setup.dsv
+[0.038s] -- Installing: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.dsv
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/ament_index/resource_index/packages/tentacle_description
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/cmake/tentacle_descriptionConfig.cmake
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/cmake/tentacle_descriptionConfig-version.cmake
+[0.038s] -- Up-to-date: /home/prithiv/tentacle2/install/tentacle_description/share/tentacle_description/package.xml
+[0.039s] Invoked command in '/home/prithiv/tentacle2/build/tentacle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_description

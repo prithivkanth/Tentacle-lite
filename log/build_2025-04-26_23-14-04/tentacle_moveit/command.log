@@ -1,0 +1,1 @@
+Invoking command in '/home/prithiv/tentacle2/build/tentacle_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prithiv/tentacle2/install/tentacle_description:/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_moveit -- -j12 -l12

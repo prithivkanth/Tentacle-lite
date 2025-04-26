@@ -1,3 +1,10 @@
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/launch/moveit.launch.py
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/tentacle.srdf
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/initial_positions.yaml
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/pilz_cartesian_limits.yaml
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/moveit_controllers.yaml
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/kinematics.yaml
+/home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/config/joint_limits.yaml
 /home/prithiv/tentacle2/install/tentacle_moveit/share/ament_index/resource_index/package_run_dependencies/tentacle_moveit
 /home/prithiv/tentacle2/install/tentacle_moveit/share/ament_index/resource_index/parent_prefix_path/tentacle_moveit
 /home/prithiv/tentacle2/install/tentacle_moveit/share/tentacle_moveit/environment/ament_prefix_path.sh
