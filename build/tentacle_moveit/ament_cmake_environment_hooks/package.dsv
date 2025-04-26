@@ -1,0 +1,4 @@
+source;share/tentacle_moveit/local_setup.bash
+source;share/tentacle_moveit/local_setup.dsv
+source;share/tentacle_moveit/local_setup.sh
+source;share/tentacle_moveit/local_setup.zsh

@@ -1,0 +1,6 @@
+Invoking command in '/home/prithiv/tentacle2/build/tentacle_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/prithiv/tentacle2/src/tentacle_moveit -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/tentacle_moveit
+Invoked command in '/home/prithiv/tentacle2/build/tentacle_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/prithiv/tentacle2/src/tentacle_moveit -DCMAKE_INSTALL_PREFIX=/home/prithiv/tentacle2/install/tentacle_moveit
+Invoking command in '/home/prithiv/tentacle2/build/tentacle_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_moveit -- -j12 -l12
+Invoked command in '/home/prithiv/tentacle2/build/tentacle_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prithiv/tentacle2/build/tentacle_moveit -- -j12 -l12
+Invoking command in '/home/prithiv/tentacle2/build/tentacle_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_moveit
+Invoked command in '/home/prithiv/tentacle2/build/tentacle_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prithiv/tentacle2/build/tentacle_moveit
